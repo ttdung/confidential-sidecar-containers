@@ -1,0 +1,34 @@
+{
+    "key": {
+        "kid": "mykeyv19",
+        "kty": "RSA-HSM",
+        "authority": {
+            "endpoint": "sharedneu.neu.attest.azure.net"
+        },
+        "akv": {
+            "endpoint": "testvaultkhtn.vault.azure.net",
+            "api_version": "api-version=7.4",
+            "bearer_token": "<token>"
+        }
+    },
+    "claims": [
+        [
+            {
+                "claim": "x-ms-sevsnpvm-hostdata",
+                "equals": "526fa8e3c54fbe320686a0d5f00247e9617631ef6cea305096eddc231eece681"
+            },
+            {
+                "claim": "x-ms-compliance-status",
+                "equals": "azure-compliant-uvm"
+            },
+            {
+                "claim": "x-ms-sevsnpvm-is-debuggable",
+                "equals": "false"
+            },
+            {
+                "claim": "x-ms-sevsnpvm-vmpl",
+                "equals": "0"
+            }
+        ]
+    ]
+}

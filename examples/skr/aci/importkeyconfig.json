@@ -1,0 +1,34 @@
+{
+    "key": {
+        "kid": "mykeyv10",
+        "kty": "RSA-HSM",
+        "authority": {
+            "endpoint": "sharedneu.neu.attest.azure.net"
+        },
+        "akv": {
+            "endpoint": "testvaultkhtn.vault.azure.net",
+            "api_version": "api-version=7.4",
+            "bearer_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6InlFVXdtWFdMMTA3Q2MtN1FaMldTYmVPYjNzUSIsImtpZCI6InlFVXdtWFdMMTA3Q2MtN1FaMldTYmVPYjNzUSJ9.eyJhdWQiOiJjZmE4YjMzOS04MmEyLTQ3MWEtYTNjOS0wZmMwYmU3YTQwOTMiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC80MDEyN2NkNC00NWYzLTQ5YTMtYjA1ZC0zMTVhNDNhOWYwMzMvIiwiaWF0IjoxNzYxNzQ0OTM1LCJuYmYiOjE3NjE3NDQ5MzUsImV4cCI6MTc2MTc0OTEwMiwiYWNyIjoiMSIsImFpbyI6IkFYUUFpLzhhQUFBQWRRNlBPMzludTFZMG9tOS91K2EwZmJoajR0U1RVQWN4N0YveFY1Szc0ejhKUCsvbFlHWEtZSmpEVDhkQ2x6eFNyTzhhQzlHLzRPaXUwcTVEQjJYb0RsMnRuaklXUENXNk5Fci9ORTlaNjVqYStwNVBKaFlXNjc4VTRzemgvNFl4bGVLZVFpL01wR2FHV1p6Z2RHSGJaZz09IiwiYW1yIjpbInB3ZCIsIm1mYSJdLCJhcHBpZCI6IjA0YjA3Nzk1LThkZGItNDYxYS1iYmVlLTAyZjllMWJmN2I0NiIsImFwcGlkYWNyIjoiMCIsImZhbWlseV9uYW1lIjoiRHVuZyIsImdpdmVuX25hbWUiOiJUcmFuIFRydW5nIiwiZ3JvdXBzIjpbIjVhODYxODA3LWNjODAtNGVjZS1iZTIyLWNiZDU2MjIwN2ZiNSJdLCJpZHR5cCI6InVzZXIiLCJpcGFkZHIiOiIxMTMuMTc3LjEzNy4yMTYiLCJuYW1lIjoiRHVuZyBUcmFuIFRydW5nIiwib2lkIjoiNTZkYjEzNDAtZGRjMS00Y2YxLTkyYWUtM2YxNTYxOTQzY2MwIiwicHVpZCI6IjEwMDMwMDAwQTFFRjQ4RTIiLCJyaCI6IjEuQVZRQTFId1NRUE5GbzBtd1hURmFRNm53TXptenFNLWlnaHBIbzhrUHdMNTZRSk1zQVFoVUFBLiIsInNjcCI6InVzZXJfaW1wZXJzb25hdGlvbiIsInNpZCI6ImY2MDM4MTAwLTZlMGMtNDM2MC1hYTA3LWUzZTljNzFmN2VjMyIsInN1YiI6IkM5SWhTNHVVZFdHTmlRRnBMUzhoQ1h3VVhPVURNOWVxTk9CSUtWeWFIbHciLCJ0aWQiOiI0MDEyN2NkNC00NWYzLTQ5YTMtYjA1ZC0zMTVhNDNhOWYwMzMiLCJ1bmlxdWVfbmFtZSI6InR0ZHVuZ0Btc28uaGNtdXMuZWR1LnZuIiwidXBuIjoidHRkdW5nQG1zby5oY211cy5lZHUudm4iLCJ1dGkiOiJCSS1iMFVWYXhrbVhrVTlqY3R5MkFBIiwidmVyIjoiMS4wIiwid2lkcyI6WyJiNzlmYmY0ZC0zZWY5LTQ2ODktODE0My03NmIxOTRlODU1MDkiXSwieG1zX2FjdF9mY3QiOiIzIDUiLCJ4bXNfZnRkIjoiUGU2Tmp0ZzhaaDMwcXZlMFU0STh6c0g1Tl9PUHR3S2VfaFlUcmVPSXlRMEJhbUZ3WVc1bFlYTjBMV1J6YlhNIiwieG1zX2lkcmVsIjoiMSA0IiwieG1zX3N1Yl9mY3QiOiIyIDMifQ.YRw4XBjuNYdLRHpbbjnYy-QXSU1e_lRCqlky5-7Htcb8cgfm-Jybb5m__xNFD2LGk9G0T12rBRkY5QqjwPeYP0nFXJHBRrh31v3prbPM7PGU0JcLO08WJdrF4sY7IWZKFG7CKNIstA2m_kzvYvxnMUKEqbsaQlyiLY-GlEFDWjngQVeiOgzsBB0-TKo7QPX9Ft32_6jn_JbfDZbCF9wW5I4k3h4olJpdtBIkhnBk1aqMrbpKRixXAjjFbkrvX67-PFBjQq_YFB1FhegFwEOn7h83T4xP1pfgBLqHAANPKTsAff-hiv5GOI5OrkONkKtP1zbX6K3Jea2LGJCwFcfaLQ"
+        }
+    },
+    "claims": [
+        [
+            {
+                "claim": "x-ms-sevsnpvm-hostdata",
+                "equals": "c9e03f57e73f196ffa04ea457eb825ee5530786e21270ca83f77741b179f6fe0"
+            },
+            {
+                "claim": "x-ms-compliance-status",
+                "equals": "azure-compliant-uvm"
+            },
+            {
+                "claim": "x-ms-sevsnpvm-is-debuggable",
+                "equals": "false"
+            },
+            {
+                "claim": "x-ms-sevsnpvm-vmpl",
+                "equals": "0"
+            }
+        ]
+    ]
+}
